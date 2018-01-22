@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d9c8f7d-5236-46cb-941e-ec2d9b678703" name="Default" comment="" />
+    <list default="true" id="5d9c8f7d-5236-46cb-941e-ec2d9b678703" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_elec.pdf" afterPath="$PROJECT_DIR$/result_elec.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_classifier.py" afterPath="$PROJECT_DIR$/my_classifier.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_elec.csv" afterPath="$PROJECT_DIR$/result_elec.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run_experiments.py" afterPath="$PROJECT_DIR$/run_experiments.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,26 +22,35 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="my_classifier.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my_classifier.py">
+      <file leaf-file-name="run_experiments.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run_experiments.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+            <state relative-caret-position="352">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
-                <element signature="e#347#517#0" expanded="false" />
-                <element signature="e#566#721#0" expanded="false" />
+                <element signature="e#1#74#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run_experiments.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run_experiments.py">
+      <file leaf-file-name="my_classifier.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="1056">
+              <caret line="79" column="22" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="35" />
               <folding>
-                <element signature="e#0#73#0" expanded="true" />
+                <element signature="e#159#325#0" expanded="false" />
+                <element signature="e#371#432#0" expanded="false" />
+                <element signature="e#475#530#0" expanded="false" />
+                <element signature="e#593#646#0" expanded="false" />
+                <element signature="e#706#756#0" expanded="false" />
+                <element signature="e#821#888#0" expanded="false" />
+                <element signature="e#950#1017#0" expanded="false" />
+                <element signature="e#1058#1228#0" expanded="false" />
+                <element signature="e#1277#1432#0" expanded="false" />
+                <element signature="e#2698#2942#0" expanded="false" />
+                <element signature="e#2978#3282#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -43,8 +59,8 @@
       <file leaf-file-name="run_plot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run_plot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="154">
+              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -52,23 +68,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="elec.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/elec.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>extend</find>
       <find>predict</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -85,6 +101,9 @@
     <option name="width" value="1855" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -100,6 +119,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -114,14 +134,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.run_plot">
+  <component name="RunManager" selected="Python.run_experiments">
     <configuration default="false" name="run_experiments" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,6 +188,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="IoTLab2" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_classifier.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="evaluate_prequential" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/anaconda3/lib/python3.6/site-packages/scikit_multiflow-0.1.0-py3.6-linux-x86_64.egg/skmultiflow/evaluation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IoTLab2" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/anaconda3/lib/python3.6/site-packages/scikit_multiflow-0.1.0-py3.6-linux-x86_64.egg/skmultiflow/evaluation/evaluate_prequential.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -320,16 +356,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.run_experiments" />
       <item index="1" class="java.lang.String" itemvalue="Python.run_plot" />
       <item index="2" class="java.lang.String" itemvalue="Python.my_classifier" />
+      <item index="3" class="java.lang.String" itemvalue="Python.evaluate_prequential" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.run_plot" />
-        <item index="1" class="java.lang.String" itemvalue="Python.run_experiments" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.run_experiments" />
+        <item index="1" class="java.lang.String" itemvalue="Python.run_plot" />
         <item index="2" class="java.lang.String" itemvalue="Python.my_classifier" />
+        <item index="3" class="java.lang.String" itemvalue="Python.evaluate_prequential" />
       </list>
     </recent_temporary>
   </component>
@@ -343,11 +381,11 @@
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10371179" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1419214" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296146" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3184584" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995943" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31808943" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39939025" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -366,17 +404,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/run_experiments.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/scikit_multiflow-0.1.0-py3.6-linux-x86_64.egg/skmultiflow/evaluation/measure_collection.py</url>
           <line>130</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -386,8 +419,65 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#347#517#0" expanded="false" />
-            <element signature="e#566#721#0" expanded="false" />
+            <element signature="e#159#325#0" expanded="false" />
+            <element signature="e#371#432#0" expanded="false" />
+            <element signature="e#475#530#0" expanded="false" />
+            <element signature="e#593#646#0" expanded="false" />
+            <element signature="e#706#756#0" expanded="false" />
+            <element signature="e#821#888#0" expanded="false" />
+            <element signature="e#950#1017#0" expanded="false" />
+            <element signature="e#1058#1228#0" expanded="false" />
+            <element signature="e#1277#1432#0" expanded="false" />
+            <element signature="e#2698#2942#0" expanded="false" />
+            <element signature="e#2978#3282#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_experiments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#1#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/elec.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#159#325#0" expanded="false" />
+            <element signature="e#371#432#0" expanded="false" />
+            <element signature="e#475#530#0" expanded="false" />
+            <element signature="e#593#646#0" expanded="false" />
+            <element signature="e#706#756#0" expanded="false" />
+            <element signature="e#821#888#0" expanded="false" />
+            <element signature="e#950#1017#0" expanded="false" />
+            <element signature="e#1058#1228#0" expanded="false" />
+            <element signature="e#1277#1432#0" expanded="false" />
+            <element signature="e#2698#2942#0" expanded="false" />
+            <element signature="e#2978#3282#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -397,7 +487,7 @@
         <state relative-caret-position="110">
           <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding>
-            <element signature="e#0#73#0" expanded="true" />
+            <element signature="e#1#74#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -425,8 +515,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#347#517#0" expanded="false" />
-            <element signature="e#566#721#0" expanded="false" />
+            <element signature="e#159#325#0" expanded="false" />
+            <element signature="e#371#432#0" expanded="false" />
+            <element signature="e#475#530#0" expanded="false" />
+            <element signature="e#593#646#0" expanded="false" />
+            <element signature="e#706#756#0" expanded="false" />
+            <element signature="e#821#888#0" expanded="false" />
+            <element signature="e#950#1017#0" expanded="false" />
+            <element signature="e#1058#1228#0" expanded="false" />
+            <element signature="e#1277#1432#0" expanded="false" />
+            <element signature="e#2698#2942#0" expanded="false" />
+            <element signature="e#2978#3282#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -446,7 +545,7 @@
         <state relative-caret-position="198">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#0#73#0" expanded="true" />
+            <element signature="e#1#74#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -474,8 +573,17 @@
         <state relative-caret-position="396">
           <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding>
-            <element signature="e#347#517#0" expanded="false" />
-            <element signature="e#566#721#0" expanded="false" />
+            <element signature="e#159#325#0" expanded="false" />
+            <element signature="e#371#432#0" expanded="false" />
+            <element signature="e#475#530#0" expanded="false" />
+            <element signature="e#593#646#0" expanded="false" />
+            <element signature="e#706#756#0" expanded="false" />
+            <element signature="e#821#888#0" expanded="false" />
+            <element signature="e#950#1017#0" expanded="false" />
+            <element signature="e#1058#1228#0" expanded="false" />
+            <element signature="e#1277#1432#0" expanded="false" />
+            <element signature="e#2698#2942#0" expanded="false" />
+            <element signature="e#2978#3282#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -485,7 +593,7 @@
         <state relative-caret-position="198">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#0#73#0" expanded="true" />
+            <element signature="e#1#74#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -513,8 +621,17 @@
         <state relative-caret-position="352">
           <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding>
-            <element signature="e#347#517#0" expanded="false" />
-            <element signature="e#566#721#0" expanded="false" />
+            <element signature="e#159#325#0" expanded="false" />
+            <element signature="e#371#432#0" expanded="false" />
+            <element signature="e#475#530#0" expanded="false" />
+            <element signature="e#593#646#0" expanded="false" />
+            <element signature="e#706#756#0" expanded="false" />
+            <element signature="e#821#888#0" expanded="false" />
+            <element signature="e#950#1017#0" expanded="false" />
+            <element signature="e#1058#1228#0" expanded="false" />
+            <element signature="e#1277#1432#0" expanded="false" />
+            <element signature="e#2698#2942#0" expanded="false" />
+            <element signature="e#2978#3282#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -524,7 +641,7 @@
         <state relative-caret-position="66">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#0#73#0" expanded="true" />
+            <element signature="e#1#74#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -552,8 +669,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#347#517#0" expanded="false" />
-            <element signature="e#566#721#0" expanded="false" />
+            <element signature="e#159#325#0" expanded="false" />
+            <element signature="e#371#432#0" expanded="false" />
+            <element signature="e#475#530#0" expanded="false" />
+            <element signature="e#593#646#0" expanded="false" />
+            <element signature="e#706#756#0" expanded="false" />
+            <element signature="e#821#888#0" expanded="false" />
+            <element signature="e#950#1017#0" expanded="false" />
+            <element signature="e#1058#1228#0" expanded="false" />
+            <element signature="e#1277#1432#0" expanded="false" />
+            <element signature="e#2698#2942#0" expanded="false" />
+            <element signature="e#2978#3282#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -563,7 +689,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#73#0" expanded="true" />
+            <element signature="e#1#74#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -590,7 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="415" column="0" lean-forward="false" selection-start-line="415" selection-start-column="0" selection-end-line="415" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -598,35 +723,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/scikit_multiflow-0.1.0-py3.6-linux-x86_64.egg/skmultiflow/core/utils/data_structures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2800">
+          <caret line="874" column="6" lean-forward="false" selection-start-line="874" selection-start-column="6" selection-end-line="874" selection-end-column="6" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/scikit_multiflow-0.1.0-py3.6-linux-x86_64.egg/skmultiflow/evaluation/measure_collection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-          <folding>
-            <element signature="e#2977#3171#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/scikit_multiflow-0.1.0-py3.6-linux-x86_64.egg/skmultiflow/evaluation/evaluate_prequential.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="330" column="0" lean-forward="false" selection-start-line="330" selection-start-column="0" selection-end-line="330" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_experiments.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -638,10 +742,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/scikit_multiflow-0.1.0-py3.6-linux-x86_64.egg/skmultiflow/evaluation/measure_collection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding>
+            <element signature="e#2977#3171#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/scikit_multiflow-0.1.0-py3.6-linux-x86_64.egg/skmultiflow/evaluation/evaluate_prequential.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="357" column="0" lean-forward="false" selection-start-line="357" selection-start-column="0" selection-end-line="357" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/run_plot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="154">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -650,11 +782,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my_classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        <state relative-caret-position="1056">
+          <caret line="79" column="22" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="35" />
           <folding>
-            <element signature="e#347#517#0" expanded="false" />
-            <element signature="e#566#721#0" expanded="false" />
+            <element signature="e#159#325#0" expanded="false" />
+            <element signature="e#371#432#0" expanded="false" />
+            <element signature="e#475#530#0" expanded="false" />
+            <element signature="e#593#646#0" expanded="false" />
+            <element signature="e#706#756#0" expanded="false" />
+            <element signature="e#821#888#0" expanded="false" />
+            <element signature="e#950#1017#0" expanded="false" />
+            <element signature="e#1058#1228#0" expanded="false" />
+            <element signature="e#1277#1432#0" expanded="false" />
+            <element signature="e#2698#2942#0" expanded="false" />
+            <element signature="e#2978#3282#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_experiments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#1#74#0" expanded="true" />
           </folding>
         </state>
       </provider>

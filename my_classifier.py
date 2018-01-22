@@ -1,16 +1,41 @@
-from numpy import *
-
 from sklearn.tree import DecisionTreeClassifier
 
 class BatchClassifier:
 
-
+#instancewindow()
     def __init__(self, window_size = 100, max_models = 10):
         self.H = []
         self.windowSize = window_size
         self.maxModels = max_models
         self.preData = []
+        self.preY = []
         self.lastModelIndex = 0
+
+    def assaignXtoPreData(self, X):
+        self.preData = []
+        self.addNdArrayElementsToPreList(X)
+
+    def assaignYtoPreY(self, y):
+        self.preY = []
+        self.addNdArrayElementsToPreY(y)
+
+    def addNdArrayElementsToPreList(self, ndArrray):
+        for x in ndArrray:
+            self.preData.append(x)
+
+    def addNdArrayElementsToPreY(self, ndArrray):
+        for x in ndArrray:
+            self.preY.append(x)
+
+    def addArrayElementsToList(self, array, ndArrray):
+        for x in ndArrray:
+            array.append(x)
+        return array
+
+    def addArrayElementsToY(self, array, ndArrray):
+        for x in ndArrray:
+            array.append(x)
+        return array
 
     def addModel(self, model):
         if (len(self.H) < self.maxModels):
@@ -30,20 +55,23 @@ class BatchClassifier:
     def partial_fit(self, X, y = None, classes = None):
 
         # N.B.: The 'classes' option is not important for this classifier
-        if len(X) + len(self.preData) < self.windowSize :
-            self.preData = self.preData + (X)
+        if X.size + len(self.preData) < self.windowSize :
+            self.addNdArrayElementsToPreList(X)
+            self.addNdArrayElementsToPreY(y)
 
         else:
             while (True):
                 useFromX = self.windowSize - len(self.preData)
-                useFromY = self.windowSize - len(self.preData)
+                useFromY = self.windowSize - len(self.preY)
 
                 if len(self.preData) == 0:
                     xToUse = X[:useFromX]
                     yToUse = y[:useFromY]
                 else:
-                    xToUse = self.preData + (X[:useFromX])
-                    yToUse = self.preData + (y[:useFromY])
+                    xToUse = self.addArrayElementsToList(self.preData.copy(), X[:useFromX])
+                    yToUse = self.addArrayElementsToY(self.preY.copy(), y[:useFromY])
+
+                    self.preY = []
                     self.preData = []
 
                 X = X[useFromX:]
@@ -53,8 +81,9 @@ class BatchClassifier:
                 h.fit(xToUse, yToUse)
                 self.addModel(h)
 
-                if(len(X) < self.windowSize):
-                    self.preData = X
+                if(X.size < self.windowSize):
+                    self.assaignXtoPreData(X)
+                    self.assaignYtoPreY(y)
                     break
 
         return self
@@ -79,7 +108,7 @@ class BatchClassifier:
 
         majority = self.getMajority(predictions)
         predictions = []
-        for n in range(N):
+        for n in range(D+1):
             predictions.append(majority)
 
 
